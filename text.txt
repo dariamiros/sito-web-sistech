@@ -1,0 +1,15 @@
+Sito Web Sistech
+
+Questo progetto consiste nella realizzazione di una landing page responsive
+per la presentazione di un’azienda. Il sito include una struttura di navigazione,
+sezioni informative e integrazione di icone social.
+
+Funzionalità principali:
+- layout responsive
+- navigazione semplice e intuitiva
+- struttura HTML semantica
+- design moderno e pulito
+
+Tecnologie utilizzate:
+- HTML5
+- CSS3

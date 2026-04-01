@@ -1,0 +1,139 @@
+     
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color)
+        }
+        
+        
+        .navigation{
+             display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 0 auto;
+            font-size: 15px;
+           
+        
+        }
+        
+        .navigation a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+            padding-right: 80px;
+            
+        }
+        
+        .navigation a:hover{
+            color: #8fe6fa;
+        }
+        
+        .btn{
+            position: relative;
+            transform: translateY(-30%);
+            background-color: #5a45644d;
+            color:  #ffffff;
+            font-size: 15px;
+            border-radius: 15px;
+            border-color: #8fe6f7;
+            box-shadow: 1px 1px 10px #4d89b0;
+            padding: 6px 9px;
+            cursor: pointer;
+        
+                }
+        
+        .btn:hover{
+            color: #8fe6fa;
+        }
+        
+        
+        
+        .information{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .sezione1{
+            display:flow-root;
+            text-align: center;
+        }
+          
+        .primo-banner{
+            max-width: 70%;
+            height: auto;
+        }
+        
+        .sezione2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: #ffffff;
+            margin-top:100px;
+            margin-bottom: 100px;
+            gap: 150px
+        
+        }
+        
+        .banner-img{
+            max-width: 45%;
+            height: auto;
+        }
+        
+        .banner-text{
+            max-width: 30%;
+        }
+        
+        .site-title{
+            text-align: left;
+            font-size: 30px;
+        }
+        
+        .testo1{
+            margin-top: 70px;
+            font-size: 25px;
+        }
+        
+        
+         #logotop{
+            display: flex;
+            
+            align-items: center;
+            background-color: rgb(49, 45, 99);
+            height: 100px;
+            padding-left: 80px;
+        }
+        
+        footer {
+            background-color: rgb(49, 45, 99);
+            justify-content: center;
+            align-items: center;
+            padding: 20px 80px;
+            display: flex;
+            }
+        
+        footer .information{
+            display: flex;
+            gap: 100px;
+            color: #ffffff;
+            
+        }
+        
+        footer a:hover {
+                color: #8fe6fa;
+        }   
+        
+        .nolink{
+            text-decoration: none;
+            color: #ffffff;
+            
+        }
+        
+        
+        
